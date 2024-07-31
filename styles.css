@@ -1,0 +1,313 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/798/281/249/blue-aurora-wallpaper-preview.jpg");
+    background-size: cover;
+    padding: 120px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .profile-picture img {
+    border-radius: 5%;
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.header-content {
+    margin-left: 20px;
+    max-width: 600px;
+}
+
+.header-content h1 {
+    font-size: 57px;
+    font-weight: bolder;
+    font-family: lucida handwriting ;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.header-content p {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+span{
+    font-style: italic;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(161, 252, 255);
+}
+
+.header-content button {
+    background-color: #bdf1ff;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #2d3a53;
+    padding: 10px 20px;
+    margin-left: 230px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-content button:hover {
+    background-color: #45b8ff;
+}
+
+#bodyPage{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/798/281/249/blue-aurora-wallpaper-preview.jpg");
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* transition: transform 0.3s ease; */
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+#about{
+    padding: 30px;
+    max-width:max-content;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 360px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #455574;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6182fb;
+    padding-bottom: 10px;
+    font-family:cursive;
+}
+
+#projects{
+    padding: 30px;
+    max-width:max-content;
+    margin-left: 360px;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.project-card {
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card .project-info {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 0 0 8px 8px;
+}
+
+.project-card h3 {
+    margin: 0;
+    color: #333;
+}
+
+.project-card p {
+    color: #666;
+}
+
+.project-card:hover {
+    transform: translateY(-7px);
+}
+
+#academics{
+    /* max-width:max-content; */
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-bottom: 40px;
+    margin-right: 250px;
+}
+
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.abt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+}
+
+#certifications{
+    padding: 30px;
+    max-width:max-content;
+    margin-left: 390px;
+}
+
+li{
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+}
+
+#hobbies{
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-bottom: 40px;
+    margin-right: 250px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+}
+
+.gallery-item img {
+    border: 2px solid rgb(56, 60, 110);
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+#voluntary-activities{
+    padding: 30px;
+    max-width:max-content;
+    margin-left: 390px;
+}
+
+.activity-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.activity-card {
+    background: #f0f2f5;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#internships{
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-bottom: 40px;
+    margin-right: 250px;
+}
+
+.internships {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.internship {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.internship img {
+    border: 2px solid rgb(56, 60, 110);
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.internship-info {
+    max-width: 300px;
+}
+
+#contact{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 350px;
+    margin-left: 600px;
+    padding-top: 3px;
+    max-width:max-content;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+.social-icons li {
+    display: inline;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #000; /* Default icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s; /* Transition effect for hover */
+}
+.social-icons a:hover {
+    color: #0073b1; /* Change this color on hover */
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-gallery, .internships {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activity-cards {
+        grid-template-columns: 1fr;
+    }
+}
